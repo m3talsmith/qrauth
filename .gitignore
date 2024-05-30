@@ -1,0 +1,9 @@
+.DS_Store
+*.sw*
+.idea
+.vscode
+*.log
+node_modules
+.env
+.envrc
+dist

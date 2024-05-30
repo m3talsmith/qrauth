@@ -1,0 +1,9 @@
+CREATE TABLE IF NOT EXISTS users (
+    id VARCHAR(255) PRIMARY KEY NOT NULL,
+    display_name VARCHAR(255)
+);
+
+CREATE TABLE IF NOT EXISTS challenges (
+    id VARCHAR(255) PRIMARY KEY NOT NULL ,
+    user_id VARCHAR(255)
+);
